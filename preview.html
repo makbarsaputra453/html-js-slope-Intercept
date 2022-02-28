@@ -1,14 +1,15 @@
 <div style='padding:10px;margin:15px;background:rgb(230,230,230);font-family:tahoma;font-size:12px; text-align:justify;height:70%;border-radius:10px'>
-Data : <ul><li id='datambcxy'></li><ul>
 masukan data : 
-<ol>
-  <li>const xindex= [<u id='xindex'></u>]  </li>
-  <li>const yindex= [<u id='yindex'></u>]  </li>
+<ul>
+<button onclick='chgxidx()'>Edit value's X</button> deret x : <u id='xindex'></u> contoh : 1,2,4,5 <br>
+<button onclick='chgyidx()'>Edit value's Y</button> deret y : <u id='yindex'></u> contoh : 1,3,5,7<br>
+<button onclick='calccorel()'>calculate the stdev</botton>
+</ul>
+<ol>Result :
+  <li id='datamcxy'></li>
+  <li id='ccorel'></li>
 </ol> 
 
 
 </div>
-
-<script type='text/javascript' src='intslp.js'>
-</script>
-<!--- --->
+<script type='text/javascript' src='index.js'></script>
