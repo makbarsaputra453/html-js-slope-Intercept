@@ -2,14 +2,14 @@ function chgxidx(){
 	var idxindex = document.querySelector('#xindex');
 	idxindex.innerHTML = '['+prompt('')+']';
 }
-function chgyidx(){
+function chgyidx(){https://github.com/makbarsaputra453/html-js-slope-Intercept-correl/blob/main/index.js
 	var idyindex = document.querySelector('#yindex');
 	idyindex.innerHTML = '['+prompt('')+']';
 }
 
 function calccorel(){
 	const xindex = JSON.parse(document.getElementById('xindex').innerHTML);
-	const yindex = [1,3,5,7];
+	const yindex = JSON.parse(document.getElementById('xindex').innerHTML);
 	let obnumb = xindex.length;
 		let sumx= 0;for (let i = 0; i < xindex.length; i++){sumx += xindex[i];}
 	let avgx = sumx/obnumb;
