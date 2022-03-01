@@ -2,7 +2,7 @@ function chgxidx(){
 	var idxindex = document.querySelector('#xindex');
 	idxindex.innerHTML = '['+prompt('')+']';
 }
-function chgyidx(){https://github.com/makbarsaputra453/html-js-slope-Intercept-correl/blob/main/index.js
+function chgyidx(){
 	var idyindex = document.querySelector('#yindex');
 	idyindex.innerHTML = '['+prompt('')+']';
 }
