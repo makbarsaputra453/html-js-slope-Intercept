@@ -9,7 +9,7 @@ function chgyidx(){
 
 function calccorel(){
 	const xindex = JSON.parse(document.getElementById('xindex').innerHTML);
-	const yindex = JSON.parse(document.getElementById('xindex').innerHTML);
+	const yindex = JSON.parse(document.getElementById('yindex').innerHTML);
 	let obnumb = xindex.length;
 		let sumx= 0;for (let i = 0; i < xindex.length; i++){sumx += xindex[i];}
 	let avgx = sumx/obnumb;
